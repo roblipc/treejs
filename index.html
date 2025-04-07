@@ -13,9 +13,23 @@
     canvas {
       display: block;
     }
+    #title {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 24px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      font-family: sans-serif;
+      border-radius: 10px;
+      z-index: 10;
+    }
   </style>
 </head>
 <body>
+  <div id="title">🌲 3D Tree - Three.js Debug View</div>
   <script type="module" src="main.js"></script>
 </body>
 </html>
